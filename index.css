@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    font-size:1.6rem;
+    line-height:1.5;
+}
+a.linkOne{
+    background-color: #FF764E;
+}
+a.linkTwo{
+    background-color: #5ED3EB;
+}
+a.linkThree{
+    background-color: #FFCD69;
+}
+#guide img{
+    border-radius: 50%;
+    width: 30%;
+    margin-left:;
+    display:inline-block;
+}
+.guideTxt {
+    width: 60%;
+    display:inline-block;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 4%;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+#intro {
+    background: rosybrown;
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 1% 2%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#footerImg{
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-size: cover;
+}
