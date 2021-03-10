@@ -1,52 +1,143 @@
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* body {
+	line-height: 1;
+} */
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 * {
     box-sizing: border-box;
     border: 1px solid gray;
 }
 html{
     font-size:62.5%;
-    font-family: 'Roboto Mono', monospace;
+    
 }
 body {
     font-size:1.6rem;
     line-height:1.5;
+    font-family:'Roboto Mono', monospace;
+    color: #4F4F4F;
+   
+}
+nav {
+    margin: 5%;
+    max-width:100%;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
 }
 a.linkOne{
     background-color: #FF764E;
+    margin-left: 10%;
 }
 a.linkTwo{
     background-color: #5ED3EB;
+    margin: 0 24%;
 }
 a.linkThree{
     background-color: #FFCD69;
+    margin-right: 10%;
 }
-#guide img{
-    border-radius: 50%;
-    width: 30%;
-    margin-left:;
+#guide {
+    max-width: 100%;
+    position: relative;
+}
+.image{
+    width: 40%;
     display:inline-block;
+    margin: 0 auto;
 }
-.guideTxt {
-    width: 60%;
+.text {
+    width: 50%;
     display:inline-block;
     margin-left: 5%;
     margin-bottom: 5%;
     padding: 4%;
+    position: absolute;
+}
+.image img{
+    border-radius: 50%;
+    width: 70%;
+    margin-left: 9%;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
 }
 #intro {
-    background: rosybrown;
+    background: #DDB9A3;
     color: white;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 0 4%;
     padding: 1% 2%;
     font-size: 2.5rem;
     text-align: center;
 }
+#about{
+    margin: 2% auto;
+    text-align: center;
+}
+.iconOne img, .iconTwo img{
+    width: 12%;
+    margin: 2% auto;
+    display: block;
+}
+.iconOne p, .iconTwo p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    font-size: 1.8rem;
+}
 #footerImg{
     background-image: url('assets/footer_img.jpg');
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
+    background-position: top;
+}
+footer {
+    background-color: #F9E7DC;
 }
